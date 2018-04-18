@@ -3,12 +3,6 @@
 FROM ubuntu:12.04
 MAINTAINER markedhero
 
-### Update everything
-RUN apt-get update
-
-### Get utilities for easier package management
-RUN apt-get install software-properties-common
-
 ### Copy the build script in to the Docker Container
 COPY build-runtime.sh /build-runtime.sh
 
