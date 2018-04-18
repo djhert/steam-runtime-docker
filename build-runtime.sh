@@ -34,6 +34,7 @@ EOF
     (cat <<EOF
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v1.4.11 (GNU/Linux)
+
 mQENBFJUZPEBCAC4CAc1qsyk6s2OuW0nZV/Q2E/rLBT3lmYdSWIMZPRwizy3BTef
 fjbtgEVWgj3q31fosVUPl3avFXn1CU/zbAB881jN32K1yeP6i7eb5Y9ZOoZ8Tbxj
 mCsnifGNEnmfAQT0FRghcBFtMIXFKonoBkuIpbRbqaUmvLb9rr2X1u3+hh3pYJ8N
@@ -88,7 +89,7 @@ QpBI5Fwn13V3OM4=
 =uSQO
 -----END PGP PUBLIC KEY BLOCK-----
 EOF
-    ) | apt-key add -
+) | apt-key add -
 
     echo "#########"
     echo "## Pass 1"
